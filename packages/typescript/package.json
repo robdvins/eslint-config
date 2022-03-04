@@ -1,6 +1,6 @@
 {
   "name": "@robdvins/eslint-config-ts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "author": "Roberto Duarte",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "typescript": ">=4.5.5"
   },
   "dependencies": {
-    "@robdvins/eslint-config-base": "workspace:^0.0.0",
+    "@robdvins/eslint-config-base": "workspace:^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0"
   },
