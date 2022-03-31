@@ -19,6 +19,12 @@ module.exports = {
     'vue/one-component-per-file': 'off',
     'vue/require-default-prop': 'off',
     'vue/require-prop-types': 'off',
-    'vue/singleline-html-element-content-newline': 'off'
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['script', 'template', 'style']
+      }
+    ]
   }
 }
