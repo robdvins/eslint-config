@@ -6,6 +6,10 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   overrides: base.overrides,
   rules: {
+    'import/named': 'off',
+    'import/namespace': 'off',
+    'import/default': 'off',
+    'import/no-named-as-default-member': 'off',
     // TS
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/no-empty-function': 'off',
